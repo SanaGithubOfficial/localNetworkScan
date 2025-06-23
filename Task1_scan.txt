@@ -1,0 +1,179 @@
+# Nmap 7.94SVN scan initiated Mon Jun 23 09:45:19 2025 as: nmap -sS -sV -oN Task1_scan.txt 192.168.1.143/24
+Nmap scan report for 192.168.1.1
+Host is up (0.0026s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     Dropbear sshd 2020.80 (protocol 2.0)
+23/tcp   open  telnet  BusyBox telnetd 1.14.0 or later
+53/tcp   open  domain  dnsmasq 2.85
+80/tcp   open  http
+1900/tcp open  upnp    Portable SDK for UPnP devices 1.6.19 (Linux 3.18.21; UPnP 1.0)
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port23-TCP:V=7.94SVN%I=7%D=6/23%Time=685922E8%P=x86_64-pc-linux-gnu%r(N
+SF:ULL,18,"\xff\xfd\x01\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03\r\r\npassword:
+SF:")%r(GenericLines,68,"\xff\xfd\x01\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03\
+SF:r\r\npassword:\r\nLogin\x20incorrect\.\x20Try\x20again\.\r\npassword:\r
+SF:\nLogin\x20incorrect\.\x20Try\x20again\.\r\npassword:")%r(tn3270,29,"\x
+SF:ff\xfd\x01\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03\r\r\n\^@IBM-3279-4-E\xfb
+SF:\^Ypassword:")%r(GetRequest,7A,"\xff\xfd\x01\xff\xfd\x1f\xff\xfb\x01\xf
+SF:f\xfb\x03\r\r\nGET\x20/\x20HTTP/1\.0\r\n\r\npassword:\r\nLogin\x20incor
+SF:rect\.\x20Try\x20again\.\r\npassword:\r\nLogin\x20incorrect\.\x20Try\x2
+SF:0again\.\r\npassword:")%r(RPCCheck,F,"\xff\xfd\x01\xff\xfd\x1f\xff\xfb\
+SF:x01\xff\xfb\x03\r\r\n")%r(Help,72,"\xff\xfd\x01\xff\xfd\x1f\xff\xfb\x01
+SF:\xff\xfb\x03\r\r\nHELP\r\npassword:\r\nAuthorization\x20failed\x20after
+SF:\x20trying\x205\x20times!\r\nYou\x20can\x20try\x20again\x20after\x20600
+SF:\x20seconds\.\r\n")%r(SIPOptions,140,"\xff\xfd\x01\xff\xfd\x1f\xff\xfb\
+SF:x01\xff\xfb\x03\r\r\nOPTIONS\x20sip:nm\x20SIP/2\.0\r\nVia:\x20SIP/2\.0/
+SF:TCP\x20nm;branch=foo\r\nFrom:\x20<sip:nm@nm>;tag=root\r\nTo:\x20<sip:nm
+SF:2@nm2>\r\nCall-ID:\x2050000\r\nCSeq:\x2042\x20OPTIONS\r\nMax-Forwards:\
+SF:x2070\r\nContent-Length:\x200\r\nContact:\x20<sip:nm@nm>\r\nAccept:\x20
+SF:application/sdp\r\n\r\nAuthorization\x20failed\x20after\x20trying\x205\
+SF:x20times!\r\nYou\x20can\x20try\x20again\x20after\x20593\x20seconds\.\r\
+SF:n")%r(NCP,47,"\xff\xfd\x01\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03\r\r\nDmd
+SF:T\^@\^@\^@\x08\x20\x08\x08\x20\x08\x08\x20\x08\x08\x20\x08\x08\x20\x08\
+SF:x08\x20\x08\x08\x20\x08\x08\x20\x08\x08\x20\x08\x08\x20\x08\^@\^@\^@\^A
+SF:\^@\^@\^@\^@");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.94SVN%I=7%D=6/23%Time=685922E8%P=x86_64-pc-linux-gnu%r(G
+SF:etRequest,35A8,"HTTP/1\.1\x20200\x20OK\r\nContent-Type:\x20text/html;\x
+SF:20charset=utf-8\r\nX-Frame-Options:\x20SAMEORIGIN\r\nContent-Security-P
+SF:olicy:\x20frame-ancestors\x20'none'\r\nContent-Length:\x2048246\r\nSet-
+SF:Cookie:\x20JSESSIONID=deleted;\x20Expires=Thu,\x2001\x20Jan\x201970\x20
+SF:00:00:01\x20GMT;\x20Path=/;\x20HttpOnly\r\nConnection:\x20keep-alive\r\
+SF:n\r\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\x20T
+SF:ransitional//EN\"\r\n\x20\x20\x20\x20\x20\x20\x20\x20\"http://www\.w3\.
+SF:org/TR/xhtml1/DTD/xhtml1-transitional\.dtd\">\r\n<html\x20xmlns=\"http:
+SF://www\.w3\.org/1999/xhtml\"\x20xml:lang=\"en\"\x20lang=\"en\">\r\n<meta
+SF:\x20http-equiv=\"Content-Type\"\x20content=\"text/html;\x20charset=utf-
+SF:8\"/>\r\n\r\n<head>\r\n\x20\x20\x20\x20<link\x20rel=\"shortcut\x20icon\
+SF:"\x20type=\"image/x-icon\"\x20href=\"\.\./img/favicon\.ico\"/>\r\n\x20\
+SF:x20\x20\x20<link\x20rel=\"stylesheet\"\x20href=\"\.\./css/main\.css\"/>
+SF:\r\n\x20\x20\x20\x20<link\x20rel=\"stylesheet\"\x20href=\"\.\./css/logi
+SF:n\.css\"/>\r\n\x20\x20\x20\x20<link\x20rel=\"stylesheet\"\x20href=\"\.\
+SF:./css/jquery\.tpInput\.css\"/>\r\n\r\n\x20\x20\x20\x20<script\x20src=\"
+SF:\.\./js/jquery-1\.8\.3\.min\.js\"\x20type=\"text/javascript\"></script>
+SF:\r\n\x20\x20\x20\x20<script\x20src=\"")%r(HTTPOptions,13C,"HTTP/1\.1\x2
+SF:0406\x20Not\x20Acceptable\r\nContent-Type:\x20text/html;\x20charset=utf
+SF:-8\r\nContent-Length:\x20116\r\nSet-Cookie:\x20JSESSIONID=deleted;\x20E
+SF:xpires=Thu,\x2001\x20Jan\x201970\x2000:00:01\x20GMT;\x20Path=/;\x20Http
+SF:Only\r\nConnection:\x20close\r\n\r\n<html><head><title>406\x20Not\x20Ac
+SF:ceptable</title></head><body><center><h1>406\x20Not\x20Acceptable</h1><
+SF:/center></body></html>")%r(RTSPRequest,13C,"HTTP/1\.1\x20406\x20Not\x20
+SF:Acceptable\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nContent-L
+SF:ength:\x20116\r\nSet-Cookie:\x20JSESSIONID=deleted;\x20Expires=Thu,\x20
+SF:01\x20Jan\x201970\x2000:00:01\x20GMT;\x20Path=/;\x20HttpOnly\r\nConnect
+SF:ion:\x20close\r\n\r\n<html><head><title>406\x20Not\x20Acceptable</title
+SF:></head><body><center><h1>406\x20Not\x20Acceptable</h1></center></body>
+SF:</html>");
+MAC Address: 30:DE:4B:04:96:20 (TP-Link Limited)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel, cpe:/o:linux:linux_kernel:3.18.21
+
+Nmap scan report for 192.168.1.103
+Host is up (0.0032s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT     STATE SERVICE    VERSION
+1688/tcp open  msrpc      Microsoft Windows RPC
+6881/tcp open  tcpwrapped
+MAC Address: D0:53:49:C1:3C:D6 (Liteon Technology)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 192.168.1.104
+Host is up (0.013s latency).
+All 1000 scanned ports on 192.168.1.104 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 04:CF:8C:C5:05:47 (Xiaomi Electronics,CO.)
+
+Nmap scan report for 192.168.1.105
+Host is up (0.17s latency).
+All 1000 scanned ports on 192.168.1.105 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 8A:84:CB:C2:44:2D (Unknown)
+
+Nmap scan report for 192.168.1.107
+Host is up (0.091s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE SERVICE         VERSION
+902/tcp  open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp  open  vmware-auth     VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+5357/tcp open  http            Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: E8:65:38:0D:1A:01 (Unknown)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 192.168.1.108
+Host is up (0.15s latency).
+Not shown: 848 filtered tcp ports (no-response), 150 filtered tcp ports (admin-prohibited)
+PORT     STATE  SERVICE    VERSION
+22/tcp   open   ssh        OpenSSH 8.7 (protocol 2.0)
+9090/tcp closed zeus-admin
+MAC Address: E8:65:38:0D:1A:01 (Unknown)
+
+Nmap scan report for 192.168.1.113
+Host is up (0.011s latency).
+Not shown: 968 filtered tcp ports (no-response), 28 closed tcp ports (reset)
+PORT     STATE SERVICE         VERSION
+135/tcp  open  msrpc           Microsoft Windows RPC
+903/tcp  open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+5357/tcp open  http            Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+7070/tcp open  ssl/realserver?
+MAC Address: C8:CB:9E:0D:37:C0 (Intel Corporate)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 192.168.1.118
+Host is up (0.026s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE    VERSION
+49152/tcp open  tcpwrapped
+62078/tcp open  tcpwrapped
+MAC Address: FA:D4:30:31:3D:C9 (Unknown)
+
+Nmap scan report for 192.168.1.138
+Host is up (0.00094s latency).
+All 1000 scanned ports on 192.168.1.138 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: B6:14:67:EB:6E:BF (Unknown)
+
+Nmap scan report for 192.168.1.142
+Host is up (0.091s latency).
+All 1000 scanned ports on 192.168.1.142 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: DC:1B:A1:BF:5D:83 (Intel Corporate)
+
+Nmap scan report for 192.168.1.145
+Host is up (0.037s latency).
+All 1000 scanned ports on 192.168.1.145 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 62:38:AB:58:8B:63 (Unknown)
+
+Nmap scan report for 192.168.1.146
+Host is up (0.0046s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+3306/tcp open  mysql         MySQL (unauthorized)
+MAC Address: 18:93:41:AD:5F:7F (Unknown)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 192.168.1.147
+Host is up (0.0052s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT     STATE SERVICE VERSION
+3306/tcp open  mysql   MySQL (unauthorized)
+MAC Address: 28:D0:43:52:DA:90 (Unknown)
+
+Nmap scan report for 192.168.1.151
+Host is up (0.0047s latency).
+All 1000 scanned ports on 192.168.1.151 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 28:D0:43:52:DA:90 (Unknown)
+
+Nmap scan report for 192.168.1.143
+Host is up (0.000017s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+53/tcp open  domain  dnsmasq 2.90
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jun 23 09:49:42 2025 -- 256 IP addresses (15 hosts up) scanned in 263.48 seconds
