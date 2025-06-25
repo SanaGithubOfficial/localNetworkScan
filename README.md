@@ -1,6 +1,6 @@
 # localNetworkScan
 
-markdown
+
 Nmap Network Scan Report – Task 1
 
 Scan Date: June 23, 2025  
