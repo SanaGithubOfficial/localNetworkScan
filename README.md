@@ -63,7 +63,4 @@ Output File
 
  Scan results saved to: 'Task1_scan.txt'
 
-Notes
-
- This scan was conducted in a controlled internal network for educational/cybersecurity analysis.
- No unauthorized access or disruption was performed.                 
+             
