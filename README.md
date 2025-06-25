@@ -1,23 +1,22 @@
 # localNetworkScan
 
-````markdown
+markdown
 Nmap Network Scan Report – Task 1
 
 Scan Date: June 23, 2025  
-Target: `192.168.1.143/24`  
+Target: '192.168.1.143/24'
 Command Used:
-```bash
+bash
 nmap -sS -sV -oN Task1_scan.txt 192.168.1.143/24
 
 Summary of Results (Host: 192.168.1.1)
 
-| Port     | State | Service | Version                                      |
-| -------- | ----- | ------- | -------------------------------------------- |
-| 22/tcp   | open  | SSH     | Dropbear sshd 2020.80 (protocol 2.0)         |
-| 23/tcp   | open  | Telnet  | BusyBox telnetd 1.14.0 or later              |
-| 53/tcp   | open  | DNS     | dnsmasq 2.85                                 |
-| 80/tcp   | open  | HTTP    | No version info detected                     |
-| 1900/tcp | open  | UPNP    | Portable SDK for UPnP devices 1.6.19 (Linux) |
+Port      State  Service  Version                                     
+22/tcp    open   SSH      Dropbear sshd 2020.80 (protocol 2.0)         
+23/tcp    open   Telnet   BusyBox telnetd 1.14.0 or later              
+53/tcp    open   DNS      dnsmasq 2.85                                 
+80/tcp    open   HTTP     No version info detected                     
+1900/tcp  open   UPNP     Portable SDK for UPnP devices 1.6.19 (Linux) 
 
 
 
